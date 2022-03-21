@@ -1,0 +1,27 @@
+[07-Mar-2021 16:13:34 UTC] PHP Warning:  require(/home/taruhudy/hrm.tarubazar.com/../vendor/autoload.php): failed to open stream: No such file or directory in /home/taruhudy/hrm.tarubazar.com/index.php on line 34
+[07-Mar-2021 16:13:34 UTC] PHP Warning:  require(/home/taruhudy/hrm.tarubazar.com/../vendor/autoload.php): failed to open stream: No such file or directory in /home/taruhudy/hrm.tarubazar.com/index.php on line 34
+[07-Mar-2021 16:13:34 UTC] PHP Fatal error:  require(): Failed opening required '/home/taruhudy/hrm.tarubazar.com/../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/taruhudy/hrm.tarubazar.com/index.php on line 34
+[01-Sep-2021 21:24:55 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/taruhudy/hrm.tarubazar.com/index.php on line 52
+[01-Sep-2021 23:46:55 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 262144 bytes) in /home/taruhudy/hrm.tarubazar.com/project/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 1125
+[02-Sep-2021 00:10:15 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 20480 bytes) in /home/taruhudy/hrm.tarubazar.com/project/vendor/barryvdh/laravel-debugbar/src/DataCollector/QueryCollector.php on line 279
+[08-Sep-2021 17:46:31 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/taruhudy/hrm.tarubazar.com/project/storage/framework/views/7025f713c3fef1013ede4a972ea3d28b23af6c12.php on line 63
+[08-Sep-2021 17:47:03 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/taruhudy/hrm.tarubazar.com/project/storage/framework/views/7025f713c3fef1013ede4a972ea3d28b23af6c12.php on line 63
+[20-Sep-2021 16:31:21 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/taruhudy/hrm.tarubazar.com/project/storage/framework/views/c1737ff6107ef7fafb7fe150e86f7bd89708b0b6.php on line 4
+[20-Sep-2021 16:31:29 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/taruhudy/hrm.tarubazar.com/project/storage/framework/views/c1737ff6107ef7fafb7fe150e86f7bd89708b0b6.php on line 4
+[20-Sep-2021 16:31:38 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/taruhudy/hrm.tarubazar.com/project/storage/framework/views/c1737ff6107ef7fafb7fe150e86f7bd89708b0b6.php on line 4
+[27-Sep-2021 18:49:39 UTC] PHP Fatal error:  During class fetch: Uncaught ParseError: syntax error, unexpected 'abord' (T_STRING), expecting ')' in /home/jardinde/fasteats.xyz/project/vendor/laravel/ui/auth-backend/AuthenticatesUsers.php:23
+Stack trace:
+#0 /home/jardinde/fasteats.xyz/project/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/jardinde/...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Foun...')
+#2 /home/jardinde/fasteats.xyz/project/app/Http/Controllers/Auth/LoginController.php(9): spl_autoload_call('Illuminate\\Foun...')
+#3 /home/jardinde/fasteats.xyz/project/vendor/composer/ClassLoader.php(444): include('/home/jardinde/...')
+#4 /home/jardinde/fasteats.xyz/project/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/jardinde/...')
+#5 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#6 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#7 /home/jardinde/fasteats.xyz/project/vendor/laravel/framework/src/Illuminat in /home/jardinde/fasteats.xyz/project/app/Http/Controllers/Auth/LoginController.php on line 9
+[30-Sep-2021 05:01:51 UTC] PHP Fatal error:  Cannot use [] for reading in /home/jardinde/fasteats.xyz/project/app/Http/Livewire/Offer.php on line 130
+[30-Sep-2021 05:02:10 UTC] PHP Fatal error:  Cannot use [] for reading in /home/jardinde/fasteats.xyz/project/app/Http/Livewire/Offer.php on line 130
+[30-Sep-2021 19:25:05 UTC] PHP Fatal error:  Constant expression contains invalid operations in /home/jardinde/fasteats.xyz/project/app/Http/Livewire/Cart.php on line 55
+[12-Oct-2021 14:29:37 UTC] PHP Fatal error:  Cannot redeclare App\Http\Livewire\Cart::getKm() in /home/jardinde/fasteats.xyz/project/app/Http/Livewire/Cart.php on line 341
+[29-Nov-2021 15:46:31 UTC] PHP Fatal error:  Cannot redeclare App\Http\Livewire\Wizard::render() in /home/jardinde/fasteats.xyz/project/app/Http/Livewire/Wizard.php on line 182
+[07-Jan-2022 14:30:38 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/jardinde/fasteats.xyz/project/app/Http/Controllers/HomeController.php on line 234
